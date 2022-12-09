@@ -114,13 +114,13 @@ Placement du sol et du stand de tir.
         ></a-obj-model>
  ```
  
- <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%201.png" height="500" width="500" >
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%201.png" height="500" width="700" >
  
- <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%202.png" height="500" width="500" >
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%202.png" height="500" width="700" >
  
- <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%203.png" height="500" width="500" >
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%203.png" height="500" width="700" >
 
- <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%204.png" height="500" width="500" >
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%204.png" height="500" width="700" >
  
  Mise en place d'une sphère concernée par un event set click permettant de se téléporter au niveau suivant. 
  
