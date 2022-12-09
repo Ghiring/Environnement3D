@@ -2,6 +2,7 @@
 
 Le projet consiste en la modélisation d'un environnement 3D permettant à de jeunes enfants de s'initier au tir sportif tout en s'amusant. Les éléments sont modélisés via fusion 360 et implémentés dans A-frame sous HTML. Ce code sous-tend également diverses interactions. 
 
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -81,3 +82,4 @@ Le projet consiste en la modélisation d'un environnement 3D permettant à de je
           src="https://cdn.glitch.global/125fb933-64c6-4db3-acd0-e508938a10fa/Coupe.obj?v=1670508456360"
         ></a-asset-item>
       </a-assets>
+```
