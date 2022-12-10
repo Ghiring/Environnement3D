@@ -134,6 +134,8 @@ Placement du sol et du stand de tir.
         ></a-sphere>
  ```
  
+  <img src=["](https://github.com/Ghiring/Environnement3D/blob/main/Cible/Sphere%20de%20teleportation.jpg)" height="500" width="500" >
+ 
  Mise en place de la table et du décor (pistolet, pièces d'échecs).
  
  ```html
@@ -207,5 +209,21 @@ Placement du sol et du stand de tir.
 
  <img src="https://github.com/Ghiring/Environnement3D/blob/main/Coupe/Coupe%203.png" height="500" width="700" >
  
+ Import de la cible.
  
+ ```html
+ <a-obj-model
+          src="#cible"
+          position="0.01119 4.39782 1.21756"
+          scale="0.002 0.001 0.001"
+          material="color: #cfc4c4"
+          obj-model=""
+          rotation="-90 90 90.00021045914971"
+        ></a-obj-model>
+```
+
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Cible/Cible.jpg" height="500" width="700" >
+
+
+
 
