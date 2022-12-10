@@ -187,4 +187,25 @@ Placement du sol et du stand de tir.
         ></a-obj-model>
  ```
  
+ Import de la coupe signifiant la victoire après avoir atteint les 15 cibles. 
  
+ ```html
+ <a-obj-model
+          src="#Coupe"
+          position="48.92791 1.24269 2.3751"
+          scale="0.004 0.004 0.004"
+          obj-model=""
+          material="color: #E8C605"
+          metalness="0.3"
+          rotation="90 0 0"
+        ></a-obj-model>
+ ```
+ 
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Coupe/Coupe%201.png" height="500" width="700" >
+
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Coupe/Coupe%202.png" height="500" width="700" >
+
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Coupe/Coupe%203.png" height="500" width="700" >
+ 
+ 
+
