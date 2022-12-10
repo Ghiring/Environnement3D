@@ -404,6 +404,12 @@ Enfermement de la caméra dans une entité afin de pouvoir la placer à différe
           </a-obj-model>
 ```
 
-<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pïstolet%20Aframe%201.png" height="500" width="700" >
+<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%201.png" height="500" width="700" >
+
+<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%202.png" height="500" width="850" >
+
+<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%203.png" height="500" width="700" >
+
+<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%204.png" height="500" width="700" >
 
 <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scene/Pistolet.jpg" height="500" width="700" >
