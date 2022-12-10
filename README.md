@@ -212,6 +212,8 @@ Placement du sol et du stand de tir.
 
  <img src="https://github.com/Ghiring/Environnement3D/blob/main/Coupe/Coupe%203.png" height="500" width="700" >
  
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scene/Salle%20finale.jpg" height="500" width="700" >
+ 
  Import de la cible.
  
  ```html
@@ -315,7 +317,7 @@ Placement des cercles qui feront office de cible grâce à un event set click. L
 ***
 ***
 
-Répétition des placements de base pour ne niveau 2 avec l'ajout d'un obstacle mouvant venant obstruerle champ de vision en direction de la cible pour complexifier le tir. 
+Répétition de la structure de base pour ne niveau 2 avec l'ajout d'un obstacle mouvant venant obstruerle champ de vision en direction de la cible pour complexifier le tir. 
 
 ```html
 <a-box
@@ -340,5 +342,66 @@ Répétition des placements de base pour ne niveau 2 avec l'ajout d'un obstacle 
 ***
 ***
 
+Répétition de la structure de base pour le niveau 3 avec l'ajout de la cible elle-même mouvante.
 
+```html
+<a-obj-model
+          src="#cible"
+          scale="0.002 0.001 0.001"
+          material="color: #cfc4c4"
+          obj-model=""
+          rotation="-90 90 90.00021045914971"
+          animation="property: position; from: -3.2 4.39 1.21; to: 3.2 4.39 1.21; dur: 3000; easing: easeInOutQuad; dir: alternate; loop: true"
+        >
+```
 
+### Rendu du niveau 3 : 
+
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scene/Niveau%203A.jpg" height="500" width="700" >
+ 
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scene/Niveau%203B.jpg" height="500" width="700" >
+ 
+***
+***
+***
+
+Ajout d'un collide pour pouvoir saisir le pistolet.
+
+```html
+<script>
+        // Add a collide event listener to the object with id="box1"
+        document.querySelector("#Arme").addEventListener("collide", (e) => {
+          /*
+    e.detail.target.el is the #box1 element
+    e.detail.body.el is the other object in collision
+    */
+          if (e.detail.body.el.id === "sphere1") {
+            e.detail.target.el.setAttribute("visible", "false");
+            e.detail.body.el.setAttribute("visible", "false");
+          }
+        });
+      </script>
+```
+
+Enfermement de la caméra dans une entité afin de pouvoir la placer à différentes hauteurs et la téléporter grâce à l'event set click de la sphère. Liaison du pistolet à la manette. 
+
+```html
+<a-entity id="camera" position="-1.7 3.5 1.5">
+        <a-camera  position="-1.3 3.5 1.5"> </a-camera>
+        <a-entity
+          id="rightHand"
+          laser-controls=""
+          raycaster="objects: .links; far: 1000 ; lineColor: red"
+        >
+          <a-obj-model
+            src="#Arme"
+            position="-0.07 -0.12 0"
+            rotation="10.90404398279458 90.009244493076984 0.261136229522865"
+            scale="0.0005 0.0005 0.0005"
+            shadow="cast: true; receive: true"
+          >
+            <a-cursor></a-cursor>
+          </a-obj-model>
+```
+
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scene/Pistolet.jpg" height="500" width="700" >
