@@ -306,6 +306,11 @@ Placement des cercles qui feront office de cible grâce à un event set click. L
           repeat="4 4"
         >
  ```
+ 
+ ### Rendu du niveau 1 : 
+ 
+  <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scène/Niveau%201.jpg" height="500" width="700" >
+
 
 ***
 ***
@@ -325,6 +330,12 @@ Répétition des placements de base pour ne niveau 2 avec l'ajout d'un obstacle 
         >
         </a-box>
 ```
+
+### Rendu du niveau 2 : 
+
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scène/Niveau%202:1.jpg" height="500" width="700" >
+
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scène/Niveau%202:2.jpg" height="500" width="700" >
 
 ***
 ***
