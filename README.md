@@ -134,7 +134,7 @@ Placement du sol et du stand de tir.
         ></a-sphere>
  ```
  
-  <img src=["](https://github.com/Ghiring/Environnement3D/blob/main/Cible/Sphere%20de%20teleportation.jpg)" height="500" width="500" >
+  <img src="https://github.com/Ghiring/Environnement3D/blob/main/Cible/Sphere%20de%20teleportation.jpg" height="500" width="500" >
  
  Mise en place de la table et du décor (pistolet, pièces d'échecs).
  
