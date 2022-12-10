@@ -6,6 +6,8 @@ Le projet consiste en la modélisation d'un environnement 3D permettant à de je
 
 ***
 
+## I - Core :
+
 Définition de la physique, pose du cadre de base et import des textures et des obj.
 
 ```html
@@ -89,6 +91,7 @@ Définition de la physique, pose du cadre de base et import des textures et des 
         ></a-asset-item>
       </a-assets>
 ```
+## II - Définition du premier niveau
 
 Placement du sol et du stand de tir.
 
@@ -122,7 +125,7 @@ Placement du sol et du stand de tir.
 
  <img src="https://github.com/Ghiring/Environnement3D/blob/main/Stand%20de%20tir/Stand%20de%20tir%20Aframe%204.png" height="500" width="700" >
  
- Mise en place d'une sphère concernée par un event set click permettant de se téléporter au niveau suivant. 
+ Mise en place d'une sphère concernée par un event set click permettant de se téléporter au niveau suivant. La sphère porte la classe "links" de façon à pouvoir interragir avec le laser que nous défiront plus loin.
  
   ```html
  <a-sphere
@@ -224,6 +227,108 @@ Placement du sol et du stand de tir.
 
  <img src="https://github.com/Ghiring/Environnement3D/blob/main/Cible/Cible.jpg" height="500" width="700" >
 
+Placement des cercles qui feront office de cible grâce à un event set click. Les cibles portent la classe "link" de façon à pouvoir être atteintes par le laser que nous définiront plus loin.
+
+```html
+<a-circle
+          id="cible1"
+          class="links"
+          position="-1.18884 4.39408 1.2105"
+          scale="0.21495 0.118 1"
+          color="#050505"
+          geometry=""
+          rotation="90 0 0"
+          event-set__click="_event: click; _target: #cible1; color: green"
+        ></a-circle>
+        <a-circle
+          id="cible2"
+          class="links"
+          position="-0.60804 4.39408 1.2105"
+          scale="0.21495 0.118 1"
+          color="#050505"
+          geometry=""
+          rotation="90 0 0"
+          event-set__click="_event: click; _target: #cible2; color: green"
+        ></a-circle>
+        <a-circle
+          id="cible3"
+          class="links"
+          position="0.00356 4.39408 1.2105"
+          scale="0.21495 0.118 1"
+          color="#050505"
+          geometry=""
+          rotation="90 0 0"
+          event-set__click="_event: click; _target: #cible3; color: green"
+        ></a-circle>
+        <a-circle
+          id="cible4"
+          class="links"
+          position="0.59768 4.39408 1.2105"
+          scale="0.21495 0.118 1"
+          color="#050505"
+          geometry=""
+          rotation="90 0 0"
+          event-set__click="_event: click; _target: #cible4; color: green"
+        ></a-circle>
+        <a-circle
+          id="cible5"
+          class="links"
+          position="1.19399 4.39408 1.2105"
+          scale="0.21495 0.118 1"
+          color="#050505"
+          geometry=""
+          rotation="90 0 0"
+          event-set__click="_event: click; _target: #cible5; color: green"
+        ></a-circle>
+```
+ Placement des murs D et G.
+ 
+ ```html
+ <a-box
+          id="mur gauche"
+          position="-4.82095 1.30925 1.87231"
+          rotation="0 0 -180"
+          scale="0.245 7.28557 3.96505"
+          material="color: #363433"
+          geometry=""
+          src="#matostable"
+          repeat="4 4"
+        >
+        </a-box>
+        <a-box
+          id="mur droite"
+          position="4.9 1.30925 1.87231"
+          rotation="0 0 -180"
+          scale="0.245 7.28557 3.96505"
+          material="color: #363433"
+          geometry=""
+          src="#matostable"
+          repeat="4 4"
+        >
+ ```
+
+***
+***
+***
+
+Répétition des placements de base pour ne niveau 2 avec l'ajout d'un obstacle mouvant venant obstruerle champ de vision en direction de la cible pour complexifier le tir. 
+
+```html
+<a-box
+          id="mur TEST"
+          position="0.17953 2.63783 1.06443"
+          rotation="0 0 90"
+          scale="0.245 1.92559 2.30152"
+          material="vertexColors: face; color: #9a989a; emissive: #404040"
+          geometry=""
+          animation="property: position; from: -3.5 3.2 0.5; to: 4 3.2 0.5; dur: 1500; easing: easeInOutQuad; dir: alternate; loop: true"
+        >
+        </a-box>
+```
+
+***
+***
+***
 
 
 
