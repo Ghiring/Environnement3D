@@ -192,6 +192,18 @@ Placement du sol et du stand de tir.
         ></a-obj-model>
  ```
  
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Table/Table%20Aframe%201.png" height="500" width="850" >
+ 
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Table/Table%20Aframe%202.png" height="500" width="850" >
+  
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Echecs/Fou/Rendu%20fou%20en%20chene.png" height="500" width="850" >
+ 
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Echecs/Pion/Rendu%20pion%20PLA%20noir.png" height="500" width="850" >
+  
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Echecs/Roi/Rendu%20roi%20noyer.png" height="500" width="850" >
+ 
+ <img src="https://github.com/Ghiring/Environnement3D/blob/main/Echecs/Tour/Rendu%20tour%20PLA%20blanc.png" height="500" width="850" >
+ 
  Import de la coupe signifiant la victoire après avoir atteint les 15 cibles. 
  
  ```html
@@ -404,12 +416,12 @@ Enfermement de la caméra dans une entité afin de pouvoir la placer à différe
           </a-obj-model>
 ```
 
-<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%201.png" height="500" width="700" >
+<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%201.png" height="500" width="850" >
 
 <img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%202.png" height="500" width="850" >
 
-<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%203.png" height="500" width="700" >
+<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%203.png" height="500" width="850" >
 
-<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%204.png" height="500" width="700" >
+<img src="https://github.com/Ghiring/Environnement3D/blob/main/Pistolet/Pistolet%20Aframe%204.png" height="500" width="850" >
 
 <img src="https://github.com/Ghiring/Environnement3D/blob/main/Scene/Pistolet.jpg" height="500" width="700" >
